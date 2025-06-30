@@ -54,8 +54,8 @@ a {
 }
 
 #whatsapp:hover {
-  background-color: transparent;
-  color: #25d366;
+  /* background-color: transparent; */
+  /* color: #25d366; */
 }
 
 #tiktok {
@@ -67,8 +67,8 @@ a {
   width: 300px;
 }
 #tiktok:hover {
-  background-color: transparent;
-  color: #000000;
+  /* background-color: transparent; */
+  /* color: #000000; */
 }
 
 #youtube {
@@ -81,8 +81,8 @@ a {
 }
 
 #youtube:hover {
-  background-color: transparent;
-  color: #ff0000;
+  /* background-color: transparent; */
+  /* color: #ff0000; */
 }
 
 #instagram {
@@ -97,30 +97,30 @@ a {
   color: #f4f1bb;
 }
 
-.gradient-text {
-  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
+/* .gradient-text { */
+/*   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d); */
+/*   -webkit-background-clip: text; */
+/*   -webkit-text-fill-color: transparent; */
+/*   background-clip: text; */
+/*   text-fill-color: transparent; */
+/* } */
 
-.border {
-  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
-  border-image: linear-gradient(
-      to right,
-      #f58529 0%,
-      #dd2a7b 33%,
-      #8134af 66%,
-      #a02b5d 100%
-    )
-    1;
-
-  border-radius: 10px;
-  border-width: 4px;
-  border-style: solid;
-  padding: 6px;
-}
+/* .border { */
+/*   border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1; */
+/*   border-image: linear-gradient( */
+/*       to right, */
+/*       #f58529 0%, */
+/*       #dd2a7b 33%, */
+/*       #8134af 66%, */
+/*       #a02b5d 100% */
+/*     ) */
+/*     1; */
+/*  */
+/*   border-radius: 10px; */
+/*   border-width: 4px; */
+/*   border-style: solid; */
+/*   padding: 6px; */
+/* } */
 
 .white-grad {
   background: linear-gradient(
@@ -141,21 +141,21 @@ a {
 }
 
 .white-grad:hover {
-  background: linear-gradient(#f4f1bb 0 0) padding-box,
-    /*this is your grey background*/
-      linear-gradient(
-        to right,
-        #f58529 0%,
-        #dd2a7b 33%,
-        #8134af 66%,
-        #a02b5d 100%
-      )
-      border-box;
-  padding: 6px;
-  border: 3px solid transparent;
-  border-radius: 10px;
-  display: inline-block;
-  width: 300px;
+  /* background: linear-gradient(#f4f1bb 0 0) padding-box, */
+  /*   /*this is your grey background*/ */
+  /*     linear-gradient( */
+  /*       to right, */
+  /*       #f58529 0%, */
+  /*       #dd2a7b 33%, */
+  /*       #8134af 66%, */
+  /*       #a02b5d 100% */
+  /*     ) */
+  /*     border-box; */
+  /* padding: 6px; */
+  /* border: 3px solid transparent; */
+  /* border-radius: 10px; */
+  /* display: inline-block; */
+  /* width: 300px; */
 }
 
 .instagram-text {
@@ -169,6 +169,10 @@ a {
   display: flex; /* Use flexbox to center content */
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
+}
+
+.container:hover{
+  cursor: pointer;
 }
 
 .text-element {
@@ -185,11 +189,14 @@ a {
   transition: background-color 0.5s ease, color 0.5s ease, border 0.5s;
   color: #f4f1bb;
 }
+/*  */
+/* .text-element:hover { */
+/*   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d); */
+/*   -webkit-background-clip: text; */
+/*   -webkit-text-fill-color: transparent; */
+/*   background-clip: text; */
+/*   text-fill-color: transparent; */
+/* } */
 
-.text-element:hover {
-  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
+
+
