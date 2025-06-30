@@ -26,3 +26,113 @@ p {
   width: 300px;
   height: 300px;
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socials a {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: background-color 0.5s ease, color 0.5s ease, border 0.5s;
+}
+
+#whatsapp {
+  color: #25d366;
+  border: 3px solid #25d366;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+
+#whatsapp:hover {
+  background-color: #25d366;
+  color: #f4f1bb;
+}
+
+#tiktok {
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+#tiktok:hover {
+  background-color: #000000;
+  color: #f4f1bb;
+}
+
+#youtube {
+  color: #ff0000;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+
+#youtube:hover {
+  background-color: #ff0000;
+  color: #f4f1bb;
+}
+
+#instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
+  color: ;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+
+#instagram:hover {
+  background-color: #ff0000;
+  color: #f4f1bb;
+}
+
+#alt-whatsapp {
+  background-color: #25d366;
+  color: #f4f1bb;
+  border: 3px solid #25d366;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+
+#alt-whatsapp:hover {
+  background-color: transparent;
+  color: #25d366;
+}
+
+#alt-tiktok {
+  background-color: #000000;
+  color: #f4f1bb;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+#alt-tiktok:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+#alt-youtube {
+  background-color: #ff0000;
+  color: #f4f1bb;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  padding: 6px;
+  width: 300px;
+}
+
+#alt-youtube:hover {
+  background-color: transparent;
+  color: #ff0000;
+}
