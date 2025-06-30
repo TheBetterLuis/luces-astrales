@@ -45,7 +45,8 @@ a {
 }
 
 #whatsapp {
-  color: #25d366;
+  background-color: #25d366;
+  color: #f4f1bb;
   border: 3px solid #25d366;
   border-radius: 10px;
   padding: 6px;
@@ -53,24 +54,26 @@ a {
 }
 
 #whatsapp:hover {
-  background-color: #25d366;
-  color: #f4f1bb;
+  background-color: transparent;
+  color: #25d366;
 }
 
 #tiktok {
-  color: #000000;
+  background-color: #000000;
+  color: #f4f1bb;
   border: 3px solid #000000;
   border-radius: 10px;
   padding: 6px;
   width: 300px;
 }
 #tiktok:hover {
-  background-color: #000000;
-  color: #f4f1bb;
+  background-color: transparent;
+  color: #000000;
 }
 
 #youtube {
-  color: #ff0000;
+  background-color: #ff0000;
+  color: #f4f1bb;
   border: 3px solid #ff0000;
   border-radius: 10px;
   padding: 6px;
@@ -78,17 +81,15 @@ a {
 }
 
 #youtube:hover {
-  background-color: #ff0000;
-  color: #f4f1bb;
+  background-color: transparent;
+  color: #ff0000;
 }
 
 #instagram {
-  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
-  color: ;
-  border: 3px solid #ff0000;
   border-radius: 10px;
   padding: 6px;
   width: 300px;
+  color: #f4f1bb;
 }
 
 #instagram:hover {
@@ -96,43 +97,99 @@ a {
   color: #f4f1bb;
 }
 
-#alt-whatsapp {
-  background-color: #25d366;
-  color: #f4f1bb;
-  border: 3px solid #25d366;
+.gradient-text {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.border {
+  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-image: linear-gradient(
+      to right,
+      #f58529 0%,
+      #dd2a7b 33%,
+      #8134af 66%,
+      #a02b5d 100%
+    )
+    1;
+
   border-radius: 10px;
+  border-width: 4px;
+  border-style: solid;
   padding: 6px;
+}
+
+.white-grad {
+  background: linear-gradient(
+      to right,
+      #f58529 0%,
+      #dd2a7b 33%,
+      #8134af 66%,
+      #a02b5d 100%
+    )
+    border-box;
+  padding: 6px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  display: inline-block;
+  width: 300px;
+  color: #f4f1bb;
+  position: relative;
+}
+
+.white-grad:hover {
+  background: linear-gradient(#f4f1bb 0 0) padding-box,
+    /*this is your grey background*/
+      linear-gradient(
+        to right,
+        #f58529 0%,
+        #dd2a7b 33%,
+        #8134af 66%,
+        #a02b5d 100%
+      )
+      border-box;
+  padding: 6px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  display: inline-block;
   width: 300px;
 }
 
-#alt-whatsapp:hover {
-  background-color: transparent;
-  color: #25d366;
+.instagram-text {
+  color: red;
+  position: relative;
+  z-index: 10;
 }
 
-#alt-tiktok {
-  background-color: #000000;
+.container {
+  position: relative; /* Establishes a positioning context for absolute elements */
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.text-element {
+  position: absolute; /* Positioning relative to the nearest positioned ancestor */
+  top: 50%; /* Move down 50% of the container's height */
+  left: 50%; /* Move right 50% of the container's width */
+  transform: translate(-50%, -50%); /* Center the text element */
+  padding: 10px; /* Optional: padding for better appearance */
+  border-radius: 5px; /* Optional: rounded corners */
+  z-index: 40;
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: background-color 0.5s ease, color 0.5s ease, border 0.5s;
   color: #f4f1bb;
-  border: 3px solid #000000;
-  border-radius: 10px;
-  padding: 6px;
-  width: 300px;
-}
-#alt-tiktok:hover {
-  background-color: transparent;
-  color: #000000;
 }
 
-#alt-youtube {
-  background-color: #ff0000;
-  color: #f4f1bb;
-  border: 3px solid #ff0000;
-  border-radius: 10px;
-  padding: 6px;
-  width: 300px;
-}
-
-#alt-youtube:hover {
-  background-color: transparent;
-  color: #ff0000;
+.text-element:hover {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #a02b5d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
