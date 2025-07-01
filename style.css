@@ -47,6 +47,7 @@ a {
 #whatsapp {
   background-color: #25d366;
   color: #f4f1bb;
+  color: white;
   border: 3px solid #25d366;
   border-radius: 10px;
   padding: 6px;
@@ -61,6 +62,7 @@ a {
 #tiktok {
   background-color: #000000;
   color: #f4f1bb;
+  color: white;
   border: 3px solid #000000;
   border-radius: 10px;
   padding: 6px;
@@ -74,6 +76,7 @@ a {
 #youtube {
   background-color: #ff0000;
   color: #f4f1bb;
+  color: white;
   border: 3px solid #ff0000;
   border-radius: 10px;
   padding: 6px;
@@ -90,11 +93,12 @@ a {
   padding: 6px;
   width: 300px;
   color: #f4f1bb;
+  color: white;
 }
 
 #instagram:hover {
-  background-color: #ff0000;
-  color: #f4f1bb;
+  /* background-color: #ff0000; */
+  /* color: #f4f1bb; */
 }
 
 /* .gradient-text { */
@@ -188,6 +192,7 @@ a {
   font-weight: 700;
   transition: background-color 0.5s ease, color 0.5s ease, border 0.5s;
   color: #f4f1bb;
+  color: white;
 }
 /*  */
 /* .text-element:hover { */
